@@ -1,0 +1,14 @@
+name = "strong_life_backend"
+main = "src/index.ts"
+compatibility_date = "2024-11-11"
+
+compatibility_flags = [ "nodejs_compat" ]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fitly"
+database_id = "50a718dd-cb31-4a35-aaf5-f9e20ab42b35"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
